@@ -49,7 +49,7 @@ python scripts/train_multilabel.py
 ```
 ### 结果可视化
 ```
-python scripts/viz_val_samples.py
+python scripts/viz_cls_samples.py
 ```
 ## 3. 目标检测（YOLOv8-nano）
 ### 虚拟环境的安装
@@ -96,5 +96,5 @@ yolo detect train `
 
 ### 结果可视化
 ```
-
+python scripts/viz_det_samples.py
 ```
